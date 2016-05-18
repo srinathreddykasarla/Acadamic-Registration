@@ -1,0 +1,118 @@
+html {
+	background: url('got1.jpg');
+	font-size: 12pt;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+label {
+	display: block;
+	color: #999;
+}
+
+
+.cf:before,
+.cf:after {
+    content: ""; 
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+:focus {
+	outline: 0;
+}
+.loginform {
+	width: 300px;
+	vertical-align: middle;
+	horizontal-align: middle;
+	margin: 10% auto;
+	padding: 30px;
+	background-color: rgba(250,250,250,0.5);
+	border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2), 
+    			inset 0px 1px 0px 0px rgba(250, 250, 250, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.loginform ul {
+	padding: 0;
+	margin: 0;
+}
+.loginform li {
+	display: inline;
+	float: left;
+}
+h1 {
+	color: #E50914;
+	font-size: 2.8em;
+	font-family: nf-icon;
+	margin-left: 3%;
+	font-family: nf-icon;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+}
+h4 {
+	color: red;
+	font-size: 0.8em;
+}
+.loginform input:not([type=submit]) {
+	padding: 6px 69px;
+	margin-right: 0;
+	border-radius: 30px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 
+				0px 1px 0px 0px rgba(250, 250, 250, 0.5) ;
+}
+.loginform input[type=submit] {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	background: #64c8ef; /* Old browsers */
+	background: -moz-linear-gradient(top,  #64c8ef 0%, #00a2e2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#64c8ef), color-stop(100%,#00a2e2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #64c8ef 0%,#00a2e2 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #64c8ef 0%,#00a2e2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64c8ef', endColorstr='#00a2e2',GradientType=0 ); /* IE6-9 */
+	color: #fff;
+	padding: 6px 115px;
+	margin-right: 0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 30px;
+	background: #B9090B;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.nfLogo.signupBasicHeader {
+    margin-left: 2%;
+}
+.nfLogo {
+ 
+    color: #E50914;
+    font-size: 2.8em;
+}
+.nfLogo, .nfLogo:focus, .nfLogo:hover {
+    text-decoration: none;
+}
+[class*=" icon-"], [class^="icon-"] {
+    font-family: nf-icon;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+a {
+    background-color: transparent;
+}
+a {
+    text-decoration: none;
+    color: #0080FF;
+}
